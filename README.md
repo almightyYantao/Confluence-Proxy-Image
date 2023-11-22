@@ -25,4 +25,5 @@ urlPatterns:
 
 ## 使用
 原路径：https://confluence.xxxx.com/pages/viewpage.action?pageId=80733518599&preview=/80733518599/80732910351/image2023-8-9_11-31-51.png  
-新路径：自己不熟的域名或者IP/pages/viewpage.action?pageId=80733518599&preview=/80733518599/80732910351/image2023-8-9_11-31-51.png
+
+新路径：自己部署的域名或者IP/pages/viewpage.action?pageId=80733518599&preview=/80733518599/80732910351/image2023-8-9_11-31-51.png
