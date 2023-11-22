@@ -1,0 +1,30 @@
+urlPatterns:
+  - info:
+      pattern: pages/viewpage\.action\?pageId=(\d+)&preview=/(\d+)/(\d+)/([^&]+)
+      fields:
+        type: contentId
+        pageId: 1
+        contentId: 3
+  - info:
+      pattern: download/attachments/(\d+)/([^?]+)
+      fields:
+        type: title
+        pageId: 1
+        contentId: 2
+  - info:
+      pattern: download/thumbnails/(\d+)/([^?]+)
+      fields:
+        type: title
+        pageId: 1
+        contentId: 2
+
+sourceBegin: "/data/confluence-image/"
+securityChain:
+  - qunhequnhe.com
+  - kujiale.com
+  - meijian.com
+
+toad:
+  appId: xxx
+  token: xxx
+  stage: xxx
